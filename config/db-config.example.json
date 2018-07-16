@@ -1,0 +1,23 @@
+{
+  "config": {
+    "postgres": {
+      "connectionstring": "postgres://test:test_password@localhost/demo"
+    },
+    "rabbitmq": {
+      "host": "localhost",
+      "login": "guest",
+      "password": "guest",
+      "port": 5672,
+      "protocol": "amqp"
+    },
+    "rethinkdb": {
+      "db": "ServiceBlueprint",
+      "host": "localhost",
+      "max": 16,
+      "min": 4,
+      "port": "28015",
+      "protocol": "http"
+    }
+  },
+  "id": "service-blueprint"
+}

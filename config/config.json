@@ -1,0 +1,23 @@
+{
+  "server": {
+    "protocol": "http",
+    "port": {
+      "http": "1999",
+      "_http": "2099"
+    },
+    "logging": {
+      "appLogName": "dev-blueprint.log",
+      "dataFixLogName": "dev-blueprint-datafix.log",
+      "logsDirectory": "/tmp",
+      "datePattern": ".yyyy-MM-ddTHH"
+    }
+  },
+  "rethinkdb": {
+    "protocol": "http",
+    "host": "localhost",
+    "port": "28015",
+    "db": "EComConfigs"
+  },
+  "ecom-pricing": {},
+  "environment": "service-blueprint-global"
+}

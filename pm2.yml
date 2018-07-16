@@ -1,0 +1,4 @@
+apps:
+  - name: blueprint-service
+    script: server.js
+    args: '--overrideConfig=./config/dev-config'
